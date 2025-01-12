@@ -1,4 +1,4 @@
-# Custom ISO Build with Kickstart
+# Custom ISO Creator with Kickstart
 
 ## Description
 
@@ -18,8 +18,8 @@ This script automates the process of creating a custom ISO image with a Kickstar
 
 1. Clone the repository or download the script:
     ```bash
-    git clone https://github.com/your-repo/Custom-ISO-build-with-Kickstart.git
-    cd Custom-ISO-build-with-Kickstart
+    git clone https://github.com/your-repo/Custom-ISO-Creator-with-Kickstart.git
+    cd Custom-ISO-Creator-with-Kickstart
     ```
 
 2. Install required packages:
