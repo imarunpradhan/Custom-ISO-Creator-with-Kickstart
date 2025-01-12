@@ -4,10 +4,6 @@
 
 This script automates the process of creating a custom ISO image with a Kickstart configuration for automated installations.
 
-## Requirements
-
-- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54&style=flat)
-
 ## Prerequisites
 
 - The script must be run as root.
