@@ -16,15 +16,8 @@ This script automates the process of creating a custom ISO image with a Kickstar
   - `mkisofs`
   - `rsync`
   - `sed`
-
-## Installation
-
-1. Clone the repository or download the script:
-    ```bash
-    git clone https://github.com/your-repo/Custom-ISO-build-with-Kickstart.git
-    cd Custom-ISO-build-with-Kickstart
-    ```
-
+  - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54&style=flat)
+    
 ## Installation
 
 1. Clone the repository or download the script:
@@ -35,8 +28,8 @@ This script automates the process of creating a custom ISO image with a Kickstar
 
 2. Install required packages:
     ```bash
-    sudo apt-get install mkisofs rsync sed  # For Debian-based systems
-    sudo yum install mkisofs rsync sed      # For RedHat-based systems
+    sudo apt-get install mkisofs rsync sed python3  # For Debian-based systems
+    sudo yum install mkisofs rsync sed python3     # For RedHat-based systems
     ```
 
 ## Usage
