@@ -19,7 +19,7 @@ ISO_LABEL_CMD = "echo | grep -oP 'LABEL=+\K[^ ]+' "
 os.system("clear")
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Assign color codes
 WHITE = '\x1b[1;37;40m'
