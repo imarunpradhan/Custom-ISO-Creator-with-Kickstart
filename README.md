@@ -8,12 +8,15 @@ This script automates the process of creating a custom ISO image with a Kickstar
 
 - The script must be run as root.
 - The source ISO file must be available.
+- Supported operating systems: Fedora, CentOS, Rocky Linux, RHEL, and Oracle Linux.
 - Ensure the required packages are installed:
   - `mkisofs`
   - `rsync`
   - `sed`
+  - `isomd5sum`
+  - `syslinux`
   - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54&style=flat)
-    
+
 ## Installation
 
 1. Clone the repository or download the script:
@@ -24,8 +27,7 @@ This script automates the process of creating a custom ISO image with a Kickstar
 
 2. Install required packages:
     ```bash
-    sudo apt-get install mkisofs rsync sed python3  # For Debian-based systems
-    sudo yum install mkisofs rsync sed python3     # For RedHat-based systems
+    sudo yum install mkisofs rsync sed isomd5sum syslinux python3     # For RedHat-based systems
     ```
 
 ## Usage
@@ -35,9 +37,9 @@ This script automates the process of creating a custom ISO image with a Kickstar
     chmod +x kickstart_iso_creator.py
     ```
 
-2. Run the script:
+2. Run the script with the path to the source ISO file:
     ```bash
-    sudo ./kickstart_iso_creator.py
+    sudo ./kickstart_iso_creator.py /path/to/source.iso
     ```
 
 3. Follow the on-screen instructions to provide the path to the source ISO file.
